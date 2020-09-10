@@ -1,5 +1,5 @@
-from output import print_list, print_task, print_task_descriptions
-from task_list import get_completed_tasks, get_task_with_description, get_tasks_by_status, get_tasks_taking_longer_than, get_uncompleted_tasks
+from modules.output import print_list, print_task, print_task_descriptions
+from modules.task_list import get_completed_tasks, get_task_with_description, get_tasks_by_status, get_tasks_taking_longer_than, get_uncompleted_tasks
 
 def print_menu():
     print("Options:")
